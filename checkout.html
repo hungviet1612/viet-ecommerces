@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Việt Ecommerce</title>
+ 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+ 		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+ 		<link type="text/css" rel="stylesheet" href="css/slick.css"/>
+ 		<link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
+ 		<link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
+ 		<link rel="stylesheet" href="css/font-awesome.min.css">
+ 		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+    </head>
+	<body>
+		<header>
+			<div id="top-header">
+				<div class="container">
+					<ul class="header-links pull-left">
+						<li><a href="#"><i class="fa fa-phone"></i>0339741460</a></li>
+						<li><a href="#"><i class="fa fa-envelope-o"></i> vietmt@gmail.com</a></li>
+						<li><a href="#"><i class="fa fa-map-marker"></i> 152 Lê lợi gò vấp</a></li>
+					</ul>
+					<ul class="header-links pull-right">
+						<li><a href="#"><i class="fa fa-dollar"></i> VNĐ</a></li>
+						<li><a href="#"><i class="fa fa-user-o"></i> Tài Khoản</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="header">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="header-logo" style="padding-top: 20px">
+								<a href="/index.html" class="logo">
+									<h3 style='color:#fff'>Việt Ecommerce</h3>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="header-search">
+								<form>
+									<input class="input" placeholder="Nhập tìm kiếm...">
+									<button class="search-btn">Tìm kiếm</button>
+								</form>
+							</div>
+						</div>
+						<div class="col-md-3 clearfix">
+							<div class="header-ctn">
+	
+								<div class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+										<i class="fa fa-shopping-cart"></i>
+										<span>Giỏ hàng</span>
+										<div class="qty">3</div>
+									</a>
+									<div class="cart-dropdown">
+										<div class="cart-list">
+											<div class="product-widget">
+												<div class="product-img">
+													<img src="./img/product01.png" alt="">
+												</div>
+												<div class="product-body">
+													<h3 class="product-name"><a href="#">Máy tính Dell 15</a></h3>
+													<h4 class="product-price"><span class="qty">1x</span>15.000.000 VNĐ</h4>
+												</div>
+												<button class="delete"><i class="fa fa-close"></i></button>
+											</div>
+	
+											<div class="product-widget">
+												<div class="product-img">
+													<img src="./img/product02.png" alt="">
+												</div>
+												<div class="product-body">
+													<h3 class="product-name"><a href="#">Máy tính Asus 15</a></h3>
+													<h4 class="product-price"><span class="qty">3x</span>15.000.000 VNĐ</h4>
+												</div>
+												<button class="delete"><i class="fa fa-close"></i></button>
+											</div>
+										</div>
+										<div class="cart-summary">
+											<small>2 sản phẩm đã chọn</small>
+											<h5>Tổng: 30.000.00 VNĐ</h5>
+										</div>
+										<div class="cart-btns">
+											<a href="/checkout.html">Xem giỏ hàng</a>
+											<a href="/checkout.html">Thanh toán <i class="fa fa-arrow-circle-right"></i></a>
+										</div>
+									</div>
+								</div>
+								<div class="menu-toggle">
+									<a href="#">
+										<i class="fa fa-bars"></i>
+										<span>Menu</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<nav id="navigation">
+			<div class="container">
+				<div id="responsive-nav">
+					<ul class="main-nav nav navbar-nav">
+						<li class=""><a href="/index.html">Trang chủ</a></li>
+						<li class="active"><a href="/checkout.html">Thanh toán</a></li>
+						<li class=""><a href="/store.html">Sản phẩm</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="billing-details">
+							<div class="section-title">
+								<h3 class="title">Thông tin</h3>
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="first-name" placeholder="Họ và tên">
+							</div>
+					
+							<div class="form-group">
+								<input class="input" type="email" name="email" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="address" placeholder="Địa chỉ">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="city" placeholder="Thành phố">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="country" placeholder="Xã/Huyện">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="zip-code" placeholder="Mã ZipCode">
+							</div>
+							<div class="form-group">
+								<input class="input" type="tel" name="tel" placeholder="Số điện thoại">
+							</div>
+							<div class="form-group">
+								<div class="input-checkbox">
+									<input type="checkbox" id="create-account">
+									<label for="create-account">
+										<span></span>
+										Tạo tài khoản
+									</label>
+									<div class="caption">
+										<p></p>
+										<input class="input" type="password" name="password" placeholder="Nhập vào mật khẩu">
+									</div>
+								</div>
+							</div>
+						</div>
+	
+						<div class="order-notes">
+							<textarea class="input" placeholder="Ghi chú cho shop"></textarea>
+						</div>
+
+					</div>
+					<div class="col-md-5 order-details">
+						<div class="section-title text-center">
+							<h3 class="title">Thông tin bills</h3>
+						</div>
+						<div class="order-summary">
+							<div class="order-col">
+								<div><strong>Sản phẩm</strong></div>
+								<div><strong>Tổng cộng</strong></div>
+							</div>
+							<div class="order-products">
+								<div class="order-col">
+									<div>1x Laptop Gaming Z390 Full HD</div>
+									<div>15.000.000 VNĐ</div>
+								</div>
+								<div class="order-col">
+									<div>1x Máy tính bảng Apple 11</div>
+									<div>12.000.000 VNĐ</div>
+								</div>
+							</div>
+							<div class="order-col">
+								<div>Tiền ship</div>
+								<div><strong>Miễn phí</strong></div>
+							</div>
+							<div class="order-col">
+								<div><strong>Tổng cộng</strong></div>
+								<div><strong class="order-total">27.000.000 VNĐ</strong></div>
+							</div>
+						</div>
+						<div class="payment-method">
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-1">
+								<label for="payment-1">
+									<span></span>
+									Thanh toán qua ngân hàng
+								</label>
+								<div class="caption">
+									<p>Hiện tại chưa update chức năng này xin vui lòng đợi sau.</p>
+								</div>
+							</div>
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-2">
+								<label for="payment-2">
+									<span></span>
+									Thanh toán qua ví điện tử Momo
+								</label>
+								<div class="caption">
+									<p>Hiện tại chưa update chức năng này xin vui lòng đợi sau.</p>
+								</div>
+							</div>
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-3">
+								<label for="payment-3">
+									<span></span>
+									Thanh toán bằng thẻ visa
+								</label>
+								<div class="caption">
+									<p>Hiện tại chưa update chức năng này xin vui lòng đợi sau.</p>
+								</div>
+							</div>
+						</div>
+						<div class="input-checkbox">
+							<input type="checkbox" id="terms">
+							<label for="terms">
+								<span></span>
+								Tôi chấp thuận với <a href="#">điều khoảng trên.</a>
+							</label>
+						</div>
+						<a href="#" class="primary-btn order-submit">Thanh toán</a>
+					</div>
+					<!-- /Order Details -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<div id="newsletter" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="newsletter">
+							<p>Đăng kí để có <strong>Ưu đải</strong></p>
+							<form>
+								<input class="input" type="email" placeholder="Nhập email của bạn">
+								<button class="newsletter-btn"><i class="fa fa-envelope"></i> Đăng ký</button>
+							</form>
+							<ul class="newsletter-follow">
+								<li>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-instagram"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-pinterest"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer id="footer">
+			<!-- top footer -->
+			<div class="section">
+				<!-- container -->
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Thông tin chúng tôi</h3>
+								<p>Việt IT hân hạnh tài trợ trang web nay.</p>
+								<ul class="footer-links">
+									<li><a href="#"><i class="fa fa-phone"></i>0339741460</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i> vietmt@gmail.com</a></li>
+									<li><a href="#"><i class="fa fa-map-marker"></i> 152 Lê lợi gò vấp</a></li>
+								</ul>
+							</div>
+						</div>
+	
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Categories</h3>
+								<ul class="footer-links">
+									<li><a href="#">Hot deals</a></li>
+									<li><a href="#">Laptop</a></li>
+									<li><a href="#">Điện thoại</a></li>
+									<li><a href="#">Máy ảnh</a></li>
+									<li><a href="#">Máy tính bản</a></li>
+								</ul>
+							</div>
+						</div>
+	
+						<div class="clearfix visible-xs"></div>
+	
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Thông tin</h3>
+								<ul class="footer-links">
+									<li><a href="#">Về chúng tôi</a></li>
+									<li><a href="#">Liên hệ</a></li>
+									<li><a href="#">Chính sách</a></li>
+									<li><a href="#">Phản hồi về đơn hàng</a></li>
+									
+								</ul>
+							</div>
+						</div>
+	
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Dịch vụ</h3>
+								<ul class="footer-links">
+									<li><a href="#">Tài khoản</a></li>
+									<li><a href="#">Giỏ hàng</a></li>
+									<li><a href="#">Sản phẩm</a></li>
+									<li><a href="#">Đơn đặt hàng</a></li>
+									<li><a href="#">Hổ trợ</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- /row -->
+				</div>
+				<!-- /container -->
+			</div>
+	
+			<div id="bottom-footer" class="section">
+				<div class="container">
+			
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<ul class="footer-payments">
+								<li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
+								<li><a href="#"><i class="fa fa-credit-card"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-paypal"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-discover"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-amex"></i></a></li>
+							</ul>
+							<span class="copyright">
+						
+								Copyright &copy;
+								<script>document.write(new Date().getFullYear());</script> Được sở hữu<i
+									class="fa fa-heart-o" aria-hidden="true"></i> bởi <a
+									href="https://www.facebook.com/hungvietnntg" target="_blank" style="color:#fff">Việt IT</a>
+							
+							</span>
+						</div>
+					</div>
+	
+				</div>
+	
+			</div>
+	
+		</footer>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/nouislider.min.js"></script>
+		<script src="js/jquery.zoom.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
